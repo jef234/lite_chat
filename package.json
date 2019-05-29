@@ -1,0 +1,14 @@
+{
+  "name": "lite_chat",
+  "version": "1.0.0",
+  "description": "A light weight Node chat application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat"
+  ],
+  "author": "Jeffrey Rajkumar",
+  "license": "ISC"
+}
