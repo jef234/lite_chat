@@ -10,5 +10,10 @@
     "Chat"
   ],
   "author": "Jeffrey Rajkumar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "mongodb": "^2.2.33",
+    "socket.io": "^2.2.0"
+  }
 }

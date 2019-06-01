@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lite Chat</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="chat container">
+        <div class="row border container">
+            <div class="form-group row col-12 mt-3">
+                <label for="chat-name">Your Name</label>
+                <input type="text" class="form-control" id="chat-name">
+            </div>
+            <input type="text" class=" col-12" placeholder="Enter you name">
+            <div id="chat-messages" class="col-12 container border">
+                <div class="col-12">Alex: Hello there</div>
+            </div>
+            <textarea class="col-12" id="text_message" placeholder="Type your message"></textarea>
+        </div>
+        <div class="chat-status badge badge-primary text-wrap">Status: <span id="status">Idle</span></div>
+    </div>
+
+    <!-- <script src='node_modules\jquery\dist\jquery.min.js'></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- different code -->
+    <!-- <script src="node_modules\popper.js\dist\popper.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- same code  -->
+    <!-- <script scr="node_modules\bootstrap\dist\js\bootstrap.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="http://127.0.0.1:8080/socket.io/socket.io.js"></script>
+    
+    <script language="javascript" src="js/index.js"></script>
+</body>
+
+</html>
